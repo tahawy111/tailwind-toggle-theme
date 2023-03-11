@@ -39,6 +39,7 @@ function App() {
         break;
 
     }
+    onWindowMatch()
   }, [theme])
 
   darkQuery.addEventListener('change', (e) => {
@@ -60,7 +61,7 @@ function App() {
     }
   }
 
-  onWindowMatch()
+
 
   return (
     <section className="min-h-screen pt-8 dark:text-gray-100 dark:bg-slate-900 duration-100">
